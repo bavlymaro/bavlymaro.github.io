@@ -1,0 +1,57 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-size: medium;
+    font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+    background-color: rgb(230, 130, 0);
+    line-height: 1.5em;
+}
+
+#logo {
+    font-family: 'Bungee Spice', cursive;
+    text-align: start;
+    color: rgb(230, 130, 0);
+    margin: 10px;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    grid-template-columns: 220px 1fr;
+    grid-template-rows: 60px 1fr;
+    grid-template-areas: 
+    "head head head head head"
+    "side main main main main"
+    ;
+    grid-gap: 3px;
+}
+
+.head {
+    grid-area: head;
+}
+
+.main {
+    grid-area: main;
+}
+
+.side {
+    grid-area: side;
+}
+
+.box {
+    background-color: rgb(41, 41, 41);
+    color: beige;
+}
+
+.contents {
+    margin: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: beige;
+}
+
+
+
