@@ -12,6 +12,8 @@ body {
     text-align: start;
     color: rgb(230, 130, 0);
     margin: 10px;
+    position: relative;
+    top: 9px;
 }
 
 .container {
@@ -42,6 +44,7 @@ body {
 .box {
     background-color: rgb(41, 41, 41);
     color: beige;
+    background-image: url("photo1.jpg");
 }
 
 .contents {
@@ -52,6 +55,18 @@ a {
     text-decoration: none;
     color: beige;
 }
+
+a:link {
+    color: orange;
+}
+a:visited {
+    color: rgb(221, 144, 0);
+}
+a:hover { 
+    background-color: rgb(61, 61, 61);
+}  
+
+
 
 
 
