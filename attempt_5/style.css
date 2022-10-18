@@ -1,0 +1,59 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template: 60px 1fr / 180px 1fr;
+    height: 100vh;
+    grid-template-areas: 
+    'head head'
+    'side main'
+    ;
+}
+
+.head {
+    display: flex;
+    grid-area: head;
+    font-family: 'Cherry Swash', cursive;
+    color: aliceblue;
+    background-color: rgb(28, 73, 159);
+    font-size: 1.8em;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.side {
+    background-color: rgb(51, 109, 219);
+    color: aliceblue;
+    grid-area: side;
+    font-size: 1.6em;
+    font-family: Georgia, Times, Times New Roman, serif;
+    text-align: center;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover {
+    color: brown;
+}
+
+.main {
+    grid-area: main;
+    font-size: 1.6em;
+    font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+    padding: 20px 25px 20px 25px;
+}
+
+
+

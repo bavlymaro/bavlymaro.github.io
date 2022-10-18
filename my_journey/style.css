@@ -31,6 +31,7 @@ body {
 
 .head {
     grid-area: head;
+    
 }
 
 .main {
@@ -66,6 +67,21 @@ a:hover {
     background-color: rgb(61, 61, 61);
 }  
 
+legend {
+    border: 2px solid rgb(172, 172, 172);
+    border-radius: 25%;
+    background: linear-gradient(90deg, rgb(141, 141, 141), rgb(70, 70, 70));
+}
+
+#contents {
+    padding: 7px;
+    margin: 3px;
+}
+
+#space {
+    border-radius: 50px 0 50px 0;
+    float: right;
+}
 
 
 
